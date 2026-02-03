@@ -177,46 +177,22 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
+                    <h1 class="h3 mb-4 text-gray-800">Edit Data Siswa SMKN 1 Ciomas</h1>
 
-                    <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Halaman Siswa</h1>
+                <form action="">
+                    <label for="nama" class="form-label">Nama Siswa</label>
+                    <input type="text" id="nama" class="form-control">
+                    <label for="nisn" class="form-label">NISN</label>
+                    <input type="text" id="nisn" class="form-control">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" id="email" class="form-control">
+                    <label for="jenis kelamin" class="form-label">Jenis Kelamin</label>
+                    <input type="text" id="jenis kelamin" class="form-control">
                     <br>
-                    <div class = "row">
+                    <button type="button" class="btn btn-primary">Simpan Data Siswa</button>
+                </form>
                     
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <a href="tambahsiswa.php" class="btn btn-primary">Tambah Data</a>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>No</th>
-                                            <th>Nama Siswa</th>
-                                            <th>NISN</th>
-                                            <th>Email</th>
-                                            <th>Jenis Kelamin</th>
-                                            <th>Aksi</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Wanda Kurniawan</td>
-                                            <td>3202160</td>
-                                            <td>wanda@gmail.com</td>
-                                            <td>Pria</td>
-                                            <td>
-                                                <a href="editsiswa.php" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></a>
-                                                <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
-                                            </td>
-                                        
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+
 
 
 
@@ -227,7 +203,13 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; PPLG 1 - SMKN 1 Ciomas</span>
+                    </div>
+                </div>
+            </footer>
             <!-- End of Footer -->
 
         </div>
